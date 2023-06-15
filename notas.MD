@@ -11,6 +11,9 @@ Por ejemplo, si el backend tiene un punto final de API para obtener una lista de
 el frontend puede utilizar Axios para hacer una solicitud GET a ese punto final y
 recuperar la lista de recursos.
 
+
+
+
 MIDDLEWARE Y ROUTE Y ESO
 
 En el contexto de la página web actual, la frase “La aplicación deberá registrar como middleware
@@ -29,3 +32,21 @@ En este caso específico, el middleware debe registrar un router para manejar la
 llegan a la ruta ‘/api/deudores’. Un router es un objeto que permite definir múltiples rutas y
 sus manejadores en una sola ubicación. Por ejemplo, el router podría definir manejadores para
 las solicitudes GET, POST y DELETE a la ruta ‘/api/deudores’.
+
+
+
+ENDPOINT !
+
+Un endpoint, o punto final, se refiere a un destino específico para una llamada de API.
+En el contexto de una aplicación web, un endpoint es una URL específica que maneja una
+solicitud HTTP y devuelve una respuesta. Por ejemplo, en una aplicación que maneja recursos
+como usuarios, un endpoint podría ser ‘/api/users’, que maneja solicitudes para obtener,
+crear, actualizar o eliminar usuarios.
+
+Cada endpoint está asociado con un método HTTP específico, como GET, POST, PUT o DELETE, que
+define la acción que se debe realizar en el recurso. Por ejemplo, una solicitud GET a ‘/api/users’
+podría devolver una lista de todos los usuarios, mientras que una solicitud POST a ‘/api/users
+podría crear un nuevo usuario.
+
+En resumen, un endpoint es una combinación de una URL y un método HTTP que define una operación
+específica en un recurso en una aplicación web.
