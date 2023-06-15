@@ -1,3 +1,4 @@
+==================================================================
 AXIOS Y CONECTAR FRONT CON BACK
 
 Axios proporciona una biblioteca fácil de usar en un paquete pequeño
@@ -11,7 +12,7 @@ Por ejemplo, si el backend tiene un punto final de API para obtener una lista de
 el frontend puede utilizar Axios para hacer una solicitud GET a ese punto final y
 recuperar la lista de recursos.
 
-
+==================================================================
 
 
 MIDDLEWARE Y ROUTE Y ESO
@@ -33,7 +34,7 @@ llegan a la ruta ‘/api/deudores’. Un router es un objeto que permite definir
 sus manejadores en una sola ubicación. Por ejemplo, el router podría definir manejadores para
 las solicitudes GET, POST y DELETE a la ruta ‘/api/deudores’.
 
-
+==================================================================
 
 ENDPOINT !
 
