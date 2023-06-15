@@ -52,3 +52,23 @@ podría crear un nuevo usuario.
 
 En resumen, un endpoint es una combinación de una URL y un método HTTP que define una operación
 específica en un recurso en una aplicación web.
+
+==================================================================
+
+RELACION ENTRE CLIENTE Y LISTADOCLIENTES
+
+El componente Clientes y el componente ListadoClientes están relacionados en el sentido de que Clientes
+importa y utiliza a ListadoClientes para mostrar una lista de clientes.
+
+En el código proporcionado, el componente Clientes define un formulario que permite al usuario buscar
+clientes por su nombre y/o apellido. Cuando el formulario es enviado, se hace una solicitud GET a la
+API del backend en la ruta ‘/api/clientes’ utilizando Axios, pasando los datos del formulario como
+parámetros de consulta. La respuesta de la API se guarda en el estado lista utilizando el hook useState.
+
+Luego, en el JSX del componente Clientes, se verifica si lista tiene un valor y, en caso afirmativo,
+se renderiza el componente ListadoClientes, pasándole la lista de clientes como prop. El componente
+ListadoClientes recibe esta lista como prop y la utiliza para renderizar una tabla con los datos de
+los clientes.
+
+En resumen, el componente Clientes utiliza el componente ListadoClientes para mostrar una lista de
+clientes que se obtiene de la API del backend.
